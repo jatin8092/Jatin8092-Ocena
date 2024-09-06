@@ -1,0 +1,161 @@
+.recovery-phrase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .logo-container-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logo-1 {
+    width: 60px;
+    height: 60px;
+    margin-right: 0.5rem;
+  }
+  
+  .brand-title-1 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #0047ba;
+    margin: 0;
+  }
+  
+  .content-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #d8d8d8;
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-family: 'Lexend', sans-serif; 
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  .tips-list {
+    text-align: left;
+    font-family: 'Lexend', sans-serif;
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .warning-box {
+    background-color: black;
+    padding: 5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .warning-text {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .reveal-button {
+    background-color: #2979ff;
+    color: #272729;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reveal-button:hover {
+    background-color: #0057d9;
+  }
+  .phrase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .phrase-item {
+    background-color: #f9f9f9;
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-family: 'Lexend', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hidden {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .toggle-button, .copy-button {
+    color: #2677E2;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  
+  .next-button-1 {
+    width: 100%;
+    background-color: #2979ff;
+    color: #272729;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    padding: 1.3rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 18rem;
+  }
+  
+  .next-button-1:hover {
+    background-color: #0057d9;
+  }
+  .eye1{
+    margin-bottom: 1rem;
+  }

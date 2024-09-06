@@ -1,0 +1,88 @@
+.recovery-phrase-container {
+    padding: 20px;
+  }
+  
+  .logo-container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-1 {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .brand-title-1 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .content-container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .tips-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .recovery-phrase-box {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .phrase-word {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .reveal-button, .copy-button, .next-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .reveal-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .copy-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .next-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+  }
+  .hidee{
+    margin-bottom: -6px;
+  }

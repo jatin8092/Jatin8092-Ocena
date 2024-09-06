@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
 .App {
   text-align: center;
+}
+
+body {
+  font-family: 'Marcellus SC', serif;
 }
 
 .App-logo {
